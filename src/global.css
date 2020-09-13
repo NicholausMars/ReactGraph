@@ -1,0 +1,35 @@
+*, *::after, *::before{
+    box-sizing: inherit;
+  }
+  html{
+    box-sizing: border-box;
+    font-size: 10px;
+  }
+  body{
+    padding: 0 20px;
+    padding-top: 20px;
+  }
+  
+  
+  .top__container{
+    width: 100%;
+    min-height: 25%;
+    display: flex;
+  }
+  
+  
+  .cards{
+    width: 60%;
+    height: fit-content;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .search{
+    width: 40%;
+    /* display: flex; */
+    justify-content: center;
+  }
+  .buttom__container{
+  
+  }
+  
