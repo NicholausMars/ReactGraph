@@ -35,7 +35,7 @@ class GraphData extends React.Component<any,any>{
   }
   render(){
     // console.log(this.state)
-    return <Graph data={this.state.data}/>;
+    return <Graph data={this.state.data} measurement={this.props.measurement} metrics={this.state.metrics}/>;
   }
 
   componentDidUpdate(){
